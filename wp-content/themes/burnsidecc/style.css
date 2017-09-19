@@ -128,7 +128,21 @@ input:focus {
 }
 /* hero */
 .hero {
-	
+	position: relative;
+}
+
+.hero:after {
+	color: #7E9CC4;
+	position: absolute;
+	bottom: 50px;
+	right: 10%;
+	content: 'Hurry. Hurry Hard.';
+	font-size: 75px;
+	font-weight: bold;
+	width: 400px;
+	text-align: right;
+	line-height: 70px;
+	letter-spacing: -0.02em;
 }
 /* logo */
 .logo {
