@@ -332,7 +332,6 @@ aside h3 {
 
 .mobile-menu li {
 	color: #fff;
-	padding: 10px 20px;
 	display: block;
 }
 
@@ -343,6 +342,8 @@ aside h3 {
 
 .mobile-menu a {
 	color: #fff;
+	padding: 10px 20px;
+	display: block;
 }
 
 p, ol, ul {
