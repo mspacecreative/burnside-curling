@@ -137,12 +137,13 @@ input:focus {
 	bottom: 50px;
 	right: 10%;
 	content: 'Hurry. Hurry hard.';
-	font-size: 74px;
+	font-size: 72px;
 	font-weight: bold;
-	width: 370px;
+	width: 470px;
 	text-align: right;
 	line-height: 70px;
 	letter-spacing: -0.03em;
+	text-transform: uppercase;
 }
 /* logo */
 .logo {
@@ -387,6 +388,7 @@ h2 {
 .max-width-750 {
 	max-width: 750px;
 	margin: auto;
+	width: 90%;
 }
 
 /*------------------------------------*\
@@ -400,6 +402,10 @@ h2 {
 	}
 	.col-sm-6:nth-child(2n) {
 		margin: 0 auto;
+	}
+	.fsn-row {
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 	.nav {
 		display: none;
