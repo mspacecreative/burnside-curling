@@ -500,7 +500,7 @@ h2 {
 }
 }
 
-@media only screen and (max-device-width: 568px) and (orientation: portrait) {
+@media only screen and (max-device-width: 320px) and (orientation: portrait) {
 
 .hero:after {
 	top: 70px;
