@@ -136,7 +136,7 @@ input:focus {
 	position: absolute;
 	bottom: 50px;
 	right: 10%;
-	content: 'Hurry. Hurry Hard.';
+	content: 'Hurry. Hurry hard.';
 	font-size: 74px;
 	font-weight: bold;
 	width: 370px;
@@ -479,7 +479,6 @@ h2 {
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
 
 .hero:after {
-	color: #fff;
 	left: 5%;
 	font-size: 5em;
 	width: 250px;
@@ -492,7 +491,6 @@ h2 {
 @media only screen and (max-device-width: 736px) and (orientation: landscape) {
 
 .hero:after {
-	color: #fff;
 	font-size: 5.5em;
 	width: 280px;
 	text-align: left;
