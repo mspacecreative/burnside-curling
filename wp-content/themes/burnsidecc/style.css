@@ -271,7 +271,7 @@ header.light .logo {
 	padding: 0 20px;
 }
 
-.single article, .search section {
+.single article, .search section, .archive section {
 	padding: 50px 0;
 }
 
@@ -376,7 +376,7 @@ h2 {
 	color: #fff;
 }
 
-.dark-bg .view-article {
+.view-article {
 	color: #7e9cbe;
 }
 
@@ -455,18 +455,18 @@ h2 {
 			padding: 50px 20%;
 		}
 		
-		.single main, .search main {
+		.single main, .search main, .archive main {
 			width: 70%;
 			margin-right: 2.5%;
 		}
 		
-		.single aside, .search aside {
+		.single aside, .search aside, .archive aside {
 			width: 27.5%;
 			padding-left: 2.5%;
 			padding-top: 50px;
 		}
 		
-		.search main, .single main, .single aside, .search aside {
+		.search main, .single main, .single aside, .search aside, .archive main, .archive aside {
 			float: left;
 		}
 		
