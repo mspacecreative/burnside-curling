@@ -424,6 +424,9 @@ h2 {
 	.header .logo, .header.light .logo {
 		padding: 10px 0;
 	}
+	header.light {
+		box-shadow: none;
+	}
 	.header, .open .header, .header.light {
 		transition: transform 0.5s;
 		-webkit-transition: transform 0.5s;
