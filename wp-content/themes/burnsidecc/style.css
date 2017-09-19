@@ -504,6 +504,12 @@ h2 {
     MISC
 \*------------------------------------*/
 
+.archive.post-type-archive-tribe_events main {
+	width: 100%;
+	margin-right: 0;
+	float: none;
+}
+
 ::selection {
 	background:#04A4CC;
 	color:#FFF;
