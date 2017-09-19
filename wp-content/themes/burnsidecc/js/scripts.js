@@ -46,6 +46,11 @@
 			$('body').toggleClass('open');
 		});
 		
+		$('.mobile-menu li').click(function() {
+			$('body').toggleClass('open');
+			$('.hamburger').toggleClass('is-active');
+		});
+		
 		function clearHeader() {
 			$('.clear-header, .post-container').css('padding-top', $('header').outerHeight());
 		}
