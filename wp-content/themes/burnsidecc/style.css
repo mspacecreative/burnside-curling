@@ -132,7 +132,7 @@ input:focus {
 }
 
 .hero:after {
-	color: #7E9CC4;
+	color: #fff;
 	position: absolute;
 	bottom: 50px;
 	right: 10%;
