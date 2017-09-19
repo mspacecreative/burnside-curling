@@ -337,7 +337,7 @@ aside h3 {
 }
 
 .mobile-menu li {
-	border-bottom: 1px solid rgba(255, 255, 255, .75);
+	border-bottom: 1px solid rgba(255, 255, 255, .25);
 	/*border-top: 1px solid #444;*/
 }
 .mobile-menu li:last-of-type {
