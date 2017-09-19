@@ -137,12 +137,12 @@ input:focus {
 	bottom: 50px;
 	right: 10%;
 	content: 'Hurry. Hurry Hard.';
-	font-size: 73px;
+	font-size: 74px;
 	font-weight: bold;
 	width: 370px;
 	text-align: right;
 	line-height: 70px;
-	letter-spacing: -0.04em;
+	letter-spacing: -0.03em;
 }
 /* logo */
 .logo {
