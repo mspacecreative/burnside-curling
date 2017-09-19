@@ -482,11 +482,23 @@ h2 {
 	color: #fff;
 	left: 5%;
 	font-size: 5em;
-	font-weight: bold;
 	width: 250px;
 	text-align: left;
 	line-height: 1em;
 	top: 100px;
+}
+}
+
+@media only screen and (max-device-width: 736px) and (orientation: landscape) {
+
+.hero:after {
+	color: #fff;
+	font-size: 5.5em;
+	width: 280px;
+	text-align: left;
+	line-height: 1em;
+	top: 80px;
+	left: 20px;
 }
 }
 
