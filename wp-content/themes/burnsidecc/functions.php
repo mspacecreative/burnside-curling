@@ -86,16 +86,22 @@ function main_styles()
 {
     wp_register_style('main-styles', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('main-styles');
+    
+    wp_register_style('parallax-css', get_template_directory_uri() . '/js/dzsparallaxer.css', array(), '1.0', 'all');
+    wp_enqueue_style('parallax-css');
 }
 
 // Load Footer Scripts
 function footer_scripts() 
 {
-		wp_register_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), null, true); // Custom scripts
-		wp_enqueue_script('scripts');
-		
-		wp_register_script('fontawesome', 'https://use.fontawesome.com/6ccd600e51.js', array('jquery'), null, true); // Custom scripts
-				wp_enqueue_script('fontawesome');
+	wp_register_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), null, true);
+	wp_enqueue_script('scripts');
+	
+	wp_register_script('fontawesome', 'https://use.fontawesome.com/6ccd600e51.js', array('jquery'), null, true);
+	wp_enqueue_script('fontawesome');
+			
+	wp_register_script('parallax-js', get_template_directory_uri() . '/js/dzsparallaxer.js', array('jquery'), null, true);
+	wp_enqueue_script('parallax-js');
 }
 
 // Register Navigation
