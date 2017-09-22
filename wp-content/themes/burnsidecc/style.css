@@ -430,6 +430,10 @@ aside li:before {
 	
 }
 
+.blog-summary-bg.dark a.view-article {
+	color: #fff;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
