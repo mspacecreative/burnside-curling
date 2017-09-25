@@ -346,6 +346,10 @@ main img.attachment-post-thumbnail {
 	margin-top: 0;
 }
 
+.standings-img img {
+	margin-bottom: 0;
+}
+
 /*------------------------------------*\
 	TYPOGRAPHY
 \*------------------------------------*/
