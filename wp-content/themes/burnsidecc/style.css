@@ -627,9 +627,6 @@ aside li:before {
     WORDPRESS CORE
 \*------------------------------------*/
 
-.alignnone {
-	margin:5px 20px 20px 0;
-}
 .aligncenter,
 div.aligncenter {
 	display:block;
