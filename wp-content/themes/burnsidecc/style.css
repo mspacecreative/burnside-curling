@@ -133,7 +133,7 @@ input:focus {
 	position: relative;
 }
 
-.hero:after {
+/*.hero:after {
 	color: #fff;
 	position: absolute;
 	bottom: 50px;
@@ -146,7 +146,7 @@ input:focus {
 	line-height: 70px;
 	letter-spacing: -0.03em;
 	text-transform: uppercase;
-}
+}*/
 /* logo */
 .logo {
 	float: left;
@@ -434,6 +434,26 @@ aside li:before {
 	color: #fff;
 }
 
+#top .fsn-column-inner.max-width-1080 {
+	padding: 0;
+}
+
+#top > div {
+	position: relative;
+	top: 75%;
+}
+
+.front-page-tag {
+	color: #fff;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.front-page-tag h1 {
+	font-size: 72px;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
@@ -484,7 +504,7 @@ aside li:before {
 		background-color: #fff;
 	}
 	.hamburger {
-		padding: 16px 20px;
+		padding: 16px 5% 16px 20px;
 	}
 	
 	.single aside, .search aside {
@@ -500,7 +520,7 @@ aside li:before {
 		margin-right: 0;
 	}
 	.fsn-row {
-		padding: 80px 20px;
+		padding: 80px 0;
 	}
 	.mobile-menu, .hamburger {
 		display: none;
@@ -731,8 +751,7 @@ a img.aligncenter {
 }
 
 .inner {
-	width: 100%;
-	max-width: 1120px;
+	width: 90%;
+	max-width: 1080px;
 	margin: auto;
-	padding: 0 20px;
 }
