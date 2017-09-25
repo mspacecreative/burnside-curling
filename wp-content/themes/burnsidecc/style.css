@@ -540,34 +540,45 @@ aside li:before {
 	}
 }
 
-@media only screen and (max-device-width: 768px) and (orientation: portrait) {
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
 
-.hero:after {
-	left: 5%;
-	font-size: 5em;
-	width: 250px;
+.front-page-tag h1 {
+	font-size: 40px;
 	text-align: left;
 	line-height: 1em;
-	top: 100px;
 }
 }
 
 @media only screen and (max-device-width: 736px) and (orientation: landscape) {
 
-.hero:after {
-	font-size: 5.5em;
-	width: 280px;
-	text-align: left;
+.front-page-tag h1 {
+	font-size: 40px;
 	line-height: 1em;
-	top: 80px;
-	left: 20px;
 }
 }
 
-@media only screen and (max-device-width: 320px) and (orientation: portrait) {
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
 
-.hero:after {
-	top: 70px;
+#top > div {
+	top: 8%;
+}
+}
+
+@media only screen and (min-device-width: 737px) and (max-device-width: 768px) and (orientation: portrait) {
+
+.front-page-tag h1 {
+	font-size: 60px;
+}
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+.front-page-tag h1 {
+	font-size: 1.5em;
+}
+
+#top > div {
+	top: 15%;
 }
 }
 
