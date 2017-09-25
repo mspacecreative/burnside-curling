@@ -82,9 +82,6 @@ input:focus {
 	transition: transform 0.5s;
 	-webkit-transition: transform 0.5s;
 	z-index: 3;
-	box-shadow: 3px -13px 8px #444;
-	-moz-box-shadow: 3px -13px 8px #444;
-	-webkit-box-shadow: 3px -13px 8px #444;
 }
 .open .wrapper {
 	transform: translateX(-240px);
@@ -467,6 +464,11 @@ aside li:before {
 	}
 	.col-sm-6:nth-child(2n) {
 		margin: 0 auto;
+	}
+	.wrapper {
+		box-shadow: 3px -13px 8px #444;
+		-moz-box-shadow: 3px -13px 8px #444;
+		-webkit-box-shadow: 3px -13px 8px #444;
 	}
 	.fsn-row {
 		padding-top: 50px;
