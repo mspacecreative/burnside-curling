@@ -535,8 +535,7 @@ aside li:before {
 	}
 	.single aside, .search aside, .archive aside {
 		width: 27.5%;
-		padding-left: 2.5%;
-		padding-top: 50px;
+		padding: 50px 0 50px 2.5%;
 	}
 	.search main, .single main, .single aside, .search aside, .archive main, .archive aside {
 		float: left;
