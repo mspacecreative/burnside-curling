@@ -5,7 +5,8 @@
 				<!-- section -->
 				<section>
 		
-					<h1><?php get_the_category(); ?></h1>
+					<?php $category = single_cat_title(' ', false); ?>
+					<h1><?php echo $category; ?></h1>
 		
 					<?php get_template_part('loop'); ?>
 		
