@@ -475,7 +475,7 @@ aside li:before {
 	padding: 50px 0;
 }
 
-.main-index article:last-of-type {
+.main-index article:last-of-type, .archive article:last-of-type, .category article:last-of-type {
 	padding-bottom: 0;
 	border-bottom: none;
 }
