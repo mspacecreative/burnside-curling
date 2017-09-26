@@ -264,6 +264,7 @@ header.light .logo {
 
 .single .post-container article {
 	padding: 0;
+	border-bottom: none;
 }
 
 .post-container article h2, .post-container article img {
