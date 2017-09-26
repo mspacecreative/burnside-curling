@@ -267,7 +267,7 @@ header.light .logo {
 	border-bottom: none;
 }
 
-.post-container article h2, .post-container article img:first-of-type {
+.post-container article h2, .post-container article img:first-child {
 	margin-top: 0;
 }
 
