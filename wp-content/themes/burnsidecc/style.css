@@ -268,12 +268,12 @@ header.light .logo {
 }
 
 .pagination {
-	margin: 0!important;
+	margin: 0;
 }
 
 .pagination a {
 	display: inline-block;
-	 margin: 20px 0;
+	margin: 20px 0;
 }
 
 .post-container article h2, .post-container article img:first-child {
