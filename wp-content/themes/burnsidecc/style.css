@@ -415,7 +415,7 @@ h2 {
 	color: #fff;
 }
 
-.dark a.view-article, .view-article {
+.dark a.view-article, .view-article, .post a {
 	color: #7e9cbe;
 }
 
