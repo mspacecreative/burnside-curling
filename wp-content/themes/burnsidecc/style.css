@@ -354,6 +354,12 @@ main img.attachment-post-thumbnail {
 	margin-bottom: 0;
 }
 
+.size-120x120 {
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 0;
+}
+
 /*------------------------------------*\
 	TYPOGRAPHY
 \*------------------------------------*/
@@ -622,6 +628,14 @@ aside li:before {
 	-webkit-transform: translateX(-50%);
 	max-width: 1600px;
 	left: 50%;
+}
+}
+
+@media only screen and (max-width: 414px) {
+
+.size-120x120 {
+	width: 33%;
+	height: auto;
 }
 }
 
