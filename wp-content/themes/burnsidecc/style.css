@@ -267,8 +267,13 @@ header.light .logo {
 	border-bottom: none;
 }
 
-.pagination:empty {
+.pagination {
 	margin: 0!important;
+}
+
+.pagination a {
+	display: inline-block;
+	 margin: 20px 0;
 }
 
 .post-container article h2, .post-container article img:first-child {
