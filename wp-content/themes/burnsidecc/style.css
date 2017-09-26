@@ -28,6 +28,8 @@
 /* html element 62.5% font-size for REM use */
 html {
 	font-size:62.5%;
+	min-height: 100%;
+	background: #e9e9e9;
 }
 body {
 	font-family: "proxima-nova",sans-serif;
