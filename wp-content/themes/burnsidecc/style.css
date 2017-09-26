@@ -257,7 +257,7 @@ header.light .logo {
 	width: 90%;
 }
 
-.single article, .search section, .archive section {
+.single article, .search section, .archive section, .error404 section {
 	padding: 50px 0;
 }
 
