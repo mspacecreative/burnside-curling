@@ -104,16 +104,10 @@ input:focus {
 .header {
 	position: fixed;
 	width: 100%;
-	left: 50%;
+	left: 0;
 	top: 0;
 	z-index: 4;
 	transition: 250ms ease-in-out;
-	transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	max-width: 1600px;
 }
 .open .header {
 	transform: translateX(-240px);
@@ -593,6 +587,19 @@ aside li:before {
 		background-attachment: scroll!important;
 		background-position: top center!important;
 	}
+}
+
+@media only screen and (min-width: 1600px) {
+
+header {
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	max-width: 1600px;
+	left: 50%;
+}
 }
 
 /*------------------------------------*\
