@@ -491,7 +491,7 @@ aside li:before {
 	aside.sidebar {
 		margin-bottom: 50px;
 	}
-	.fsn-row {
+	.fsn-row, .main-index section {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
@@ -544,7 +544,7 @@ aside li:before {
 	.col-sm-6:nth-child(2n) {
 		margin-right: 0;
 	}
-	.fsn-row {
+	.fsn-row, .main-index section {
 		padding: 80px 0;
 	}
 	.mobile-menu, .hamburger {
