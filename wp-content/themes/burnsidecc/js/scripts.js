@@ -4,10 +4,6 @@
 		
 		'use strict';
 		
-		if ($('.pagination').is(':empty')){
-		  $(this).css('margin', '0');
-		}
-		
 		// Select all links with hashes
 				$('a[href*="#"]')
 				  // Remove links that don't actually link to anything

@@ -267,6 +267,10 @@ header.light .logo {
 	border-bottom: none;
 }
 
+.pagination:empty {
+	margin: 0;
+}
+
 .post-container article h2, .post-container article img:first-child {
 	margin-top: 0;
 }
