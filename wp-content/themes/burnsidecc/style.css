@@ -275,6 +275,10 @@ header.light .logo {
 	padding: 50px 0;
 }
 
+.home.logged-in section {
+	padding: 0;
+}
+
 aside ul {
 	list-style: none;
 	padding: 0 0 0 15px;
@@ -550,6 +554,11 @@ aside li:before {
 	}
 	.search main, .single main, .single aside, .search aside, .archive main, .archive aside, .error404 main, .error404 aside, .logged-in main, .logged-in aside {
 		float: left;
+	}
+	.home.logged-in main {
+		width: 100%;
+		margin-right: 0;
+		float: none;
 	}
 }
 
