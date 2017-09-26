@@ -257,7 +257,7 @@ header.light .logo {
 	width: 90%;
 }
 
-.single article, .search section, .archive section, .error404 section {
+.single article, .search section, .archive section, .error404 section, .logged-in section {
 	padding: 50px 0;
 }
 
@@ -526,15 +526,15 @@ aside li:before {
 	.mobile-menu, .hamburger {
 		display: none;
 	}
-	.single main, .search main, .archive main, .error404 main {
+	.single main, .search main, .archive main, .error404 main, .logged-in main {
 		width: 70%;
 		margin-right: 2.5%;
 	}
-	.single aside, .search aside, .archive aside, .error404 aside {
+	.single aside, .search aside, .archive aside, .error404 aside, .logged-in aside {
 		width: 27.5%;
 		padding: 50px 0 50px 2.5%;
 	}
-	.search main, .single main, .single aside, .search aside, .archive main, .archive aside, .error404 main, .error404 aside {
+	.search main, .single main, .single aside, .search aside, .archive main, .archive aside, .error404 main, .error404 aside, .logged-in main, .logged-in aside {
 		float: left;
 	}
 }
