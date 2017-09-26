@@ -5,7 +5,8 @@
 				<!-- section -->
 				<section>
 		
-					<h1><?php single_month_title(' ', false); ?><?php _e( ' Archive', 'html5blank' ); ?></h1>
+					<?php $post_date = get_the_date('M'); ?>
+					<h1><?php echo $post_date; ?><?php _e( ' Archive', 'html5blank' ); ?></h1>
 		
 					<?php get_template_part('loop'); ?>
 		
