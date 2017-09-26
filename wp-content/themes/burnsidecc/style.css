@@ -477,6 +477,7 @@ aside li:before {
 
 .main-index article:last-of-type {
 	padding-bottom: 0;
+	border-bottom: none;
 }
 
 /*------------------------------------*\
