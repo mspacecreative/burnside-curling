@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div class="post-container clearfix">
+	<div class="post-container clearfix main-index">
 		<main role="main">
 				<!-- section -->
 				<section>

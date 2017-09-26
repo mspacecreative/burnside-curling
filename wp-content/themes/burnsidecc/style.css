@@ -550,15 +550,15 @@ aside li:before {
 	.mobile-menu, .hamburger {
 		display: none;
 	}
-	.single main, .search main, .archive main, .error404 main {
+	.single main, .search main, .archive main, .error404 main, .main-idex main {
 		width: 70%;
 		margin-right: 2.5%;
 	}
-	.single aside, .search aside, .archive aside, .error404 aside {
+	.single aside, .search aside, .archive aside, .error404 aside, .main-idex aside {
 		width: 27.5%;
 		padding: 50px 0 50px 2.5%;
 	}
-	.search main, .single main, .single aside, .search aside, .archive main, .archive aside, .error404 main, .error404 aside {
+	.search main, .single main, .single aside, .search aside, .archive main, .archive aside, .error404 main, .error404 aside, .main-idex main, .main-idex aside {
 		float: left;
 	}
 }
