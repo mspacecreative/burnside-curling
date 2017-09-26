@@ -480,6 +480,10 @@ aside li:before {
 	border-bottom: none;
 }
 
+#tribe-events-content table.tribe-events-calendar, #tribe-events-footer, #tribe-events-content {
+	margin-bottom: 0!important;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
