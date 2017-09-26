@@ -252,9 +252,9 @@ header.light .logo {
 \*------------------------------------*/
 
 .post-container {
-	max-width: 1120px;
+	max-width: 1080px;
 	margin: auto;
-	padding: 0 20px;
+	padding: 0;
 }
 
 .single article, .search section, .archive section {
@@ -599,6 +599,13 @@ aside li:before {
 	-webkit-transform: translateX(-50%);
 	max-width: 1600px;
 	left: 50%;
+}
+}
+
+@media only screen and (max-width: 1080px) {
+
+.post-container {
+	padding: 0 5%;
 }
 }
 
