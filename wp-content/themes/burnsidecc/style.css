@@ -470,6 +470,9 @@ aside li:before {
 		-moz-box-shadow: 3px 0 8px #444;
 		-webkit-box-shadow: 3px 0 8px #444;
 	}
+	aside.sidebar {
+		margin-bottom: 50px;
+	}
 	.fsn-row {
 		padding-top: 50px;
 		padding-bottom: 50px;
