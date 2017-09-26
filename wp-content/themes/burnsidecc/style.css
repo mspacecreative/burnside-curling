@@ -400,6 +400,10 @@ textarea {
 	width: 100%;
 }
 
+article p:only-child {
+	margin-bottom: 0;
+}
+
 h1 {
 	font-size: 3rem;
 	margin-top: 0;
