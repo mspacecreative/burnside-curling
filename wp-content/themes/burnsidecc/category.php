@@ -5,7 +5,7 @@
 				<!-- section -->
 				<section>
 		
-					<h1><?php the_category(); ?></h1>
+					<h1><?php get_the_category(); ?></h1>
 		
 					<?php get_template_part('loop'); ?>
 		
