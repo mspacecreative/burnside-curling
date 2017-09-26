@@ -400,7 +400,7 @@ textarea {
 	width: 100%;
 }
 
-article p:only-child {
+article p:only-of-type {
 	margin-bottom: 0;
 }
 
