@@ -475,6 +475,10 @@ aside li:before {
 	padding: 50px 0;
 }
 
+.main-index article:last-of-type {
+	padding-bottom: 0;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
