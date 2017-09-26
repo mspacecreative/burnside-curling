@@ -268,7 +268,7 @@ header.light .logo {
 }
 
 .pagination:empty {
-	margin: 0;
+	margin: 0!important;
 }
 
 .post-container article h2, .post-container article img:first-child {
