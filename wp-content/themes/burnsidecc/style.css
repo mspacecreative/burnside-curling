@@ -493,6 +493,10 @@ aside li:before {
 	margin-bottom: 0!important;
 }
 
+.type-tribe_events {
+	font-size: 2rem;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
