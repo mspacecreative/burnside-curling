@@ -52,7 +52,7 @@
 		});
 		
 		function clearHeader() {
-			$('.clear-header, .post-container').css('padding-top', $('header').outerHeight());
+			$('.wrapper').css('padding-top', $('header').outerHeight());
 		}
 		
 		function resizeBanner() {
