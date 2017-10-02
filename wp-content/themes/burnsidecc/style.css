@@ -519,6 +519,10 @@ aside li:before {
 	margin-top: 15px;
 }
 
+#tribe-events-footer~a.tribe-events-ical.tribe-events-button {
+	display: inline-block;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
