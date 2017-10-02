@@ -514,6 +514,10 @@ aside li:before {
 	padding: 0;
 }
 
+#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next {
+	width: auto;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
@@ -627,6 +631,14 @@ aside li:before {
 	font-size: 40px;
 	line-height: 1em;
 }
+}
+
+@media only screen and (max-width: 736px) {
+	
+#tribe-events-footer~a.tribe-events-ical.tribe-events-button {
+		margin: 20px auto 0;
+		width: 100%;
+	}
 }
 
 @media only screen and (max-device-width: 1024px) and (orientation: portrait) {
