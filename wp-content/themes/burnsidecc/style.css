@@ -514,7 +514,7 @@ aside li:before {
 	padding: 0;
 }
 
-#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next {
+.tribe-events-nav-next {
 	width: auto;
 	margin-top: 15px;
 }
