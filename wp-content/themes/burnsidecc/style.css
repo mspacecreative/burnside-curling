@@ -494,7 +494,7 @@ aside li:before {
 }
 
 #tribe-events-content table.tribe-events-calendar, #tribe-events-footer, #tribe-events-content {
-	margin-bottom: 0!important;
+	margin-bottom: 15px!important;
 }
 
 .type-tribe_events {
@@ -514,9 +514,8 @@ aside li:before {
 	padding: 0;
 }
 
-.tribe-events-nav-next, #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next, #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-next {
+.tribe-events-nav-next, #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next, #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-next, #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-previous {
 	width: auto;
-	margin-top: 15px;
 }
 
 #tribe-events-footer~a.tribe-events-ical.tribe-events-button {
