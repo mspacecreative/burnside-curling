@@ -12,7 +12,7 @@
     <!-- post details -->
     <span class="author"><?php _e( 'Posted by', 'html5blank' ); ?> <?php the_author(); ?> <?php _e(' on'); ?> <?php the_time('F j, Y'); ?> <?php _e(' at'); ?> <?php the_time('g:i a'); ?></span>
     <!-- /post details -->
-    <p><?php the_excerpt(); ?></p>
+    <p><?php html5wp_excerpt('html5wp_custom_post'); ?></p>
 
   <?php endwhile; ?>
   <?php wp_reset_postdata(); ?>
