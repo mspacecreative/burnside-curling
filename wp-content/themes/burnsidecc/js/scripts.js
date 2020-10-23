@@ -77,7 +77,6 @@
 		  	} else {
 		  	    header.removeClass('light');
 		  	}
-		  	navlineHeight();
 		  });
 		
 	});
